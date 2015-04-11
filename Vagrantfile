@@ -4,6 +4,7 @@
 $installIntl = <<SCRIPT
 	apt-get update
 	apt-get -y install php5-intl
+	apt-get -y autoremove
 	service apache2 restart
 SCRIPT
 
